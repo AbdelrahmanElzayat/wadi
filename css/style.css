@@ -216,8 +216,9 @@ header .container nav input::placeholder{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 105%;
     margin-bottom: -7px;
+    position: relative;
 }
 .download .container{
     display: flex;
