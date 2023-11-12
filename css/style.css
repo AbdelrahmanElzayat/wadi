@@ -211,13 +211,13 @@ header .container nav input::placeholder{
 /* end store cards */
 /* start download */
 .download{
-    padding: 10px 0 7px 0;
+    padding: 10px 0 -7px 0;
     background-image: url('../images/Group.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 105%;
-    margin-bottom: -7px;
+    width: 100%;
+    /* margin-bottom: -7px; */
     position: relative;
 }
 .download .container{
@@ -304,7 +304,7 @@ header .container nav input::placeholder{
     position: absolute;
     top: -15px;
     left: -12px;
-    height: 100px;
+    height: 92px;
     border-left: 2px dashed rgba(102, 102, 102, 0.20);
 }
 .img_disc img{
@@ -355,6 +355,16 @@ header .container nav input::placeholder{
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
+}
+@media(max-width:767px){
+    .copyBtn input{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .copyBtn button{
+        font-size: 14px;
+        font-weight: 500;
+    }
 }
 /* end discount */
 /* start about */
